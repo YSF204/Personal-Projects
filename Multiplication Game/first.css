@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(208, 213, 218);
+}
+.container{
+    position: relative;
+    height: 700px;
+    width: 600px;
+    background-color: rgba(36, 150, 185, 0.623);
+    border: black solid 2px;
+    margin: 100px auto;
+    box-shadow: 0px 4px rgba(28, 96, 141, 0.856);
+    border-radius: 25px;
+
+}
+.score{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(224, 224, 182);
+    float: right;
+    margin: 20px 20px ;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 3px rgba(104, 103, 47, 0.856);
+}
+
+.correct{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(72, 182, 39);
+    float: right;
+    margin: 20px 240px ;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 3px rgba(21, 80, 25, 0.856);
+    display: none;
+
+}
+.wrong{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(182, 39, 39);
+    float: right;
+    margin: 20px 240px ;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 3px rgba(80, 21, 21, 0.856);
+    display: none;
+
+}
+.question{
+    height: 200px;
+    width: 75%;
+    background-color: rgba(138, 52, 209, 0.959);
+    margin: 75px 75px 0px 75px;
+    box-shadow: 0px 4px rgba(103, 18, 110, 0.521);
+    text-align: center;
+    font-size: 82px;
+    line-height: 200px;
+    padding-left: 65px;
+ 
+}
+.Click{
+    height: 50px;
+    width: 75%;
+    background-color: rgba(117, 28, 145, 0.637);
+    margin: 10px 75px 5px 75px ;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px ;
+    box-shadow: 0px 3px rgba(86, 29, 104, 0.658);
+}
+#time{
+    display: none;
+    background-color:darkolivegreen ;
+    /* display: none; */
+    height: 50px;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    border-radius: 5px ;
+    margin: 30px auto;
+    box-shadow: 0px 3px rgba(8, 31, 18, 0.658);
+    float: right
+}
+.choices{
+    width: 90%;
+    margin: 10px 30px auto;
+    font-size: 0;
+
+}
+.box{
+    
+    background-color: white;
+    height: 150px;
+    width: 45%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px ;
+    box-shadow: 0px 3px rgba(173, 166, 166, 0.658);
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+.Start{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+
+
+
+}
